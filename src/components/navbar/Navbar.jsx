@@ -9,7 +9,8 @@ const Navbar = () => {
     
     
     return(
-        <nav className="nav">
+        <nav className="nav" data-testid="navbar">
+        
                 <div className="container">
                     <div className="nav-row">
                         <NavLink to="/"  className="logo">
